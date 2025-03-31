@@ -1,4 +1,4 @@
-public class Animal {
+public abstract class Animal {
     private String name;
     private int age;
 
@@ -22,4 +22,6 @@ public class Animal {
     public void dormir() {
         System.out.println(this.name + " est en train de dormir...");
     }
+
+    public abstract void faireDuBruit(); // Méthode abstraite à implémenter dans les sous-classes
 }

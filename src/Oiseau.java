@@ -1,4 +1,4 @@
-public class Oiseau extends Animal {
+public abstract class Oiseau extends Animal {
     private String envergureDesAiles;
 
     public Oiseau(String name, int age, String envergureDesAiles) {

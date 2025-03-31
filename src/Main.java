@@ -1,13 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        Animal animal = new Animal("Animal", 5);
-        Mamifere mamifere = new Mamifere("Chien", 3, "Poils");
-        Oiseau oiseau = new Oiseau("Aigle", 2, "1.5m");
+//        Mamifere mamifere = new Mamifere("Chien", 3, "Poils");
+//        Oiseau oiseau = new Oiseau("Aigle", 2, "1.5m");
+        ChauveSouris chauveSouris = new ChauveSouris("Batman", 1, "Poils");
 
-        animal.manger();
-        animal.dormir();
-        mamifere.allaiter();
+        chauveSouris.manger();
+        chauveSouris.dormir();
 
-        oiseau.voler();
+//        oiseau.voler();
+        chauveSouris.allaiter();
+        chauveSouris.voler();
+
     }
 }
