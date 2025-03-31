@@ -13,4 +13,8 @@ public class Oiseau extends Animal {
     public void setEnvergureDesAiles(String envergureDesAiles) {
         this.envergureDesAiles = envergureDesAiles;
     }
+
+    public void voler() {
+        System.out.println(this.getName() + " est en train de voler...");
+    }
 }

@@ -16,10 +16,10 @@ public class Animal {
     }
 
     public void manger() {
-        System.out.println(this.name + "est en train de manger...");
+        System.out.println(this.name + " est en train de manger...");
     }
 
     public void dormir() {
-        System.out.println(this.name + "est en train de dormir...");
+        System.out.println(this.name + " est en train de dormir...");
     }
 }
