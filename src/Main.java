@@ -10,6 +10,7 @@ public class Main {
 //        oiseau.voler();
         chauveSouris.allaiter();
         chauveSouris.voler();
+        chauveSouris.chanter();
 
     }
 }

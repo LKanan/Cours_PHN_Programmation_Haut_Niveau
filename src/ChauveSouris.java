@@ -12,4 +12,8 @@ public class ChauveSouris extends Mamifere implements Volant {
     public void faireDuBruit() {
         System.out.println(this.getName() + " fait un bruit de chauve-souris...");
     }
+
+    public void chanter() {
+        System.out.println(this.getName() + " est entrain de chanter...");
+    }
 }
